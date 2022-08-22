@@ -1,0 +1,108 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: lightgray;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 10%;
+    
+}
+article{
+    margin-bottom: 20%;
+}
+
+.main-title{
+    font-size: 60px;
+}
+.nav-link{
+    margin-left: 30px;
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+
+/* .nav-link:hover{
+    color: white;
+    
+    
+} */
+.nav-link::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0%;
+    height: 3px;
+    background: white;
+    transition: 0.4s ease-out;   
+}
+.nav-link:hover::after{
+    left: 0;
+    width: 100%;
+}
+ 
+.hero-section{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    
+    
+}
+.image-container{
+    display: flex;
+    
+    margin-right: 30%;
+}
+img{
+    border-radius: 25px;
+}
+.mini-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6%;
+    font-size: 55px;
+}
+
+.about-me p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    
+}
+.github-logo-container{
+    display: flex;
+    justify-content: center;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.skills{
+    margin-right: 40px;
+    
+}
+.skills-container2{
+    margin-left: 40px;
+   
+}
+.contact-section{
+    display: flex;
+    justify-content: center;
+    
+}
+span{
+    padding-left: 20px;
+    font-size: 30px;
+    
+}
